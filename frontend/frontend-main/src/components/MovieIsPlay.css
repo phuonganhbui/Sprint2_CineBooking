@@ -1,0 +1,11 @@
+.MoviePlay {
+  width: 1200px;
+  margin: 0 auto;
+}
+.MoviePlay h2 {
+  color: #fff;
+  margin: 30px 0;
+}
+.MoviePlay .slick-next {
+  right: 4px;
+}

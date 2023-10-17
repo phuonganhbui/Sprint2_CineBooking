@@ -1,0 +1,42 @@
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+}
+
+.booked-movie-wrapper {
+  background: #fff;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  position: fixed;
+  top: 20%;
+  left: 30%;
+  font-size: 12px;
+}
+
+.booked-movie-poster {
+  width: 60%;
+  background: url('https://upload.wikimedia.org/wikipedia/vi/4/42/%C3%81p_ph%C3%ADch_phim_M%E1%BA%AFt_bi%E1%BA%BFc.jpg')
+    no-repeat center center/cover;
+}
+
+.booked-movie-info {
+  width: 40%;
+  padding: 30px;
+}
+
+.booked-movie-info .film-title {
+  margin: 30px 0;
+}
+
+.booked-movie-info .detail-film-body p {
+  margin: 10px 0;
+}
+
+.booked-movie-info .detail-film-body span {
+  font-weight: bold;
+}
